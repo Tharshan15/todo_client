@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    height: 150px;
+}
+
+.logo-cont {
+    display: flex;
+    align-items: center;
+}
+
+
+ 
+
+.header-item li {
+    color: wheat;
+    list-style: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.header-item {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.home h1{
+    text-align: center;
+    color: aqua;
+    background-color: rgb(14, 79, 136);
+}
+.about{
+   color:burlywood;
+   text-align: center;
+}

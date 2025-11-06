@@ -1,0 +1,9 @@
+/* /src/css/Contant.css - set main container width to 100% */
+.contant,
+.container,
+.contant {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    border-radius: 1000px;
+}

@@ -2,6 +2,7 @@ import Header from './Header'
 import Home from './Home'
 import About from './About'
 import Contact from './Contact'
+import Footer from './Footer'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 const App = () => {
@@ -17,8 +18,10 @@ const App = () => {
           <Route path='/contact' element={<Contact/>}></Route>
         </Routes>
       </Router>
+     <Footer/>
+   
     </div>
+    
   )
 }
-
 export default App
